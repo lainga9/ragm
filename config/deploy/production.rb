@@ -3,9 +3,9 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://www.example.com"
+set :stage_url, "http://www.glasgoweb.net"
 server "XXX.XXX.XX.XXX", user: "SSHUSER", roles: %w{web app db}
-set :deploy_to, "/deploy/to/path"
+set :deploy_to, "/home/glasgowe/public_html/ragm2"
 
 ############################################
 # Setup Git
